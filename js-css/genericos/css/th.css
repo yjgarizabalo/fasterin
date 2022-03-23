@@ -1,0 +1,41 @@
+#imagen_induccion {
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container*/
+	height: 700px;
+	width: 100%;
+	position: relative;
+	margin-top: 70px;
+}
+#info_induccion {
+	margin-top: 370px;
+	margin-left: 60px;
+	color: #ffffff;
+	font-size: 24px;
+	width: 45%;
+  	position: absolute;
+}
+#info_induccion p{
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+.color_success{
+	color: #5cb85c;
+}
+.color_danger{
+	color: #d9534f;
+}
+.flex-space-between{
+	display: flex;
+	justify-content: space-between;
+}
+#div_opciones_disponibles{
+	display: flex;
+	flex-flow: column wrap;
+}
+.right-padding-0 {
+	padding-right: 0px;
+}
+.left-padding-0 {
+	padding-left: 0px;
+}

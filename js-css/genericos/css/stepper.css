@@ -1,0 +1,187 @@
+/*stepper*/
+:root {
+	--circle-size: clamp(1.5rem, 5vw, 3rem);
+	--spacing: clamp(0.25rem, 2vw, 0.5rem);
+}
+
+.c-stepper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.StepLabel {
+	cursor: default;
+	display: flex;
+	align-items: center;
+}
+
+.StepLabel-Icon {
+	display: flex;
+	flex-shrink: 0;
+	padding-right: 8px;
+}
+
+.SvgIcon {
+	color: rgba(0, 0, 0, 0.13);
+	display: block;
+	width: 30px;
+	height: 30px;
+	/* display: inline-block; */
+	font-size: 1px;
+	transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+	flex-shrink: 0;
+	user-select: none;
+	margin: 0 auto;
+}
+
+/* .c-stepper__item  */
+.StepLabel-Text {
+	fill: #fff !important;
+	font-size: 1rem;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+text {
+	display: block;
+	white-space: nowrap;
+}
+.c-stepper__item {
+	display: flex;
+	gap: var(--spacing);
+	align-items: center;
+	max-width: 255px;
+}
+.c-stepper__item:before {
+	--size: 3rem;
+	content: "";
+	display: block;
+}
+.c-stepper__item:not(:last-child) {
+	flex: 1;
+}
+
+.c-stepper__item:not(:last-child)::after {
+	content: "";
+	position: relative;
+	z-index: -1;
+	height: 2px;
+	background-color: #e0e0e0;
+	flex: 1;
+	margin-right: 0.5rem;
+}
+
+.c-stepper__title {
+	font-size: clamp(1rem, 1vw, 1.6rem);
+	margin: auto;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	color: #333;
+}
+
+.wrapper {
+	max-width: 10000px;
+	text-align: left;
+	margin: 2rem auto 0;
+}
+
+.btn-stepper {
+	background-color: #6e1f7c;
+	background-size: 100% !important;
+	border: #6e1f7c;
+	width: 30%;
+	min-width: 200px;
+	font-style: normal;
+	color: white;
+	box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+		0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+	margin-top: 40px;
+}
+
+.btn-stepper:hover {
+	background-color: #d57e1c;
+	border-color: #d57e1c;
+}
+
+.StepLabel-label {
+	display: block;
+	font-size: 0.875rem;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	font-weight: 400;
+	line-height: 1.43;
+	letter-spacing: 0.01071em;
+	margin: 0;
+}
+.tipografia {
+	color: #333;
+	font-size: 18px;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	font-weight: 400;
+	line-height: 1.75;
+	letter-spacing: 0.00938em;
+	margin: 0;
+}
+/*logo de agil*/
+.log {
+	width: 90%;
+	height: 370px;
+	padding: 3%;
+	margin: 0 auto;
+	border-top: 1px solid #f8ba72;
+	border-bottom: 1px solid #f8ba72;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+}
+
+.fondo {
+	width: 70%;
+	height: 268px;
+	padding: 3%;
+	margin: 0 auto;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.page-item.disabled .page-link {
+    color: #636c72;
+    pointer-events: none;
+    cursor: not-allowed;
+    background-color: #fff;
+    border-color: #ddd;
+	margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+	.log {
+		width: 280px;
+		background-size: 0%;
+		margin-top: -80px;
+		padding-top: 0px;
+		height: 300px;
+	}
+
+	.fondo {
+		width: 280px;
+		background-size: 100%;
+		padding-top: 100px;
+		height: 400px;
+	}
+
+	.wrapper {
+		max-width: 50%;
+		text-align: left;
+		margin: 2rem auto 0;
+	}
+
+	.c-stepper__item {
+		flex: 1;
+		display: table-column;
+		margin: 3px;
+		max-width: 150%;
+		padding-bottom: 30px;
+	}
+
+	.btn-stepper {
+		margin-top: 10px;
+	}
+}
