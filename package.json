@@ -1,0 +1,20 @@
+{
+  "name": "ReservaRecursosCUC",
+  "version": "1.0.0",
+  "description": "What is CodeIgniter\r ###################",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtorres3095007/ReservaRecursosCUC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dtorres3095007/ReservaRecursosCUC/issues"
+  },
+  "homepage": "https://github.com/dtorres3095007/ReservaRecursosCUC#readme"
+}
