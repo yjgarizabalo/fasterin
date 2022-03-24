@@ -1,14 +1,22 @@
 <html>
 
 <head>
-  <title>AGIL</title>
+  <title>Fasterin</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="<?php echo base_url(); ?>imagenes/logo_cuc2.png" type="image/png" rel="shortcut icon" />
+  <link href="<?php echo base_url(); ?>imagenes/favicon_fasterin.png" type="image/png" rel="shortcut icon" />
 
-  <link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/bootstrap.min.css">
+	<!-- Boostrap 5 -->
+	<link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/boostrap-5/bootstrap.css">
 
-  <link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/sweetalert.css">
+	<!-- Iconos boxicons -->
+	<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+	<!-- <link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/boxicons/boxicons.css"> -->
+
+
+
+  <!-- <link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/bootstrap.min.css">
+	<link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/sweetalert.css">
   <link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/bootstrap-datetimepicker.min.css">
   <link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/dataTables.bootstrap.min.css">
   <link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/buttons.bootstrap.min.css">
@@ -19,38 +27,38 @@
 
 
   <link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/Chart.css">
-  <link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/Chart.min.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/Chart.min.css"> -->
 
-  <script src="<?php echo base_url(); ?>js-css/estaticos/js/bs-stepper.min.js"></script>
+  <!-- <script src="<?php echo base_url(); ?>js-css/estaticos/js/bs-stepper.min.js"></script>
   <script src="<?php echo base_url(); ?>js-css/estaticos/js/jquery-2.2.1.js"></script>
   <script src="<?php echo base_url(); ?>js-css/estaticos/js/bootstrap.min.js"></script>
   <script src="<?php echo base_url(); ?>js-css/estaticos/js/jquery.dataTables.min.js"></script>
   <script src="<?php echo base_url(); ?>js-css/estaticos/js/dataTables.bootstrap.js"></script>
-  <script src="<?php echo base_url(); ?>js-css/estaticos/js/dataTables.bootstrap.min.js"></script>
+  <script src="<?php echo base_url(); ?>js-css/estaticos/js/dataTables.bootstrap.min.js"></script> -->
   <script src="<?php echo base_url(); ?>js-css/genericos/js/General.js"></script>
   <script src="<?php echo base_url(); ?>js-css/genericos/js/Usuarios.js"></script>
   <script src="<?php echo base_url(); ?>js-css/estaticos/js/sweetalert.min.js"></script>
   <script src="<?php echo base_url(); ?>js-css/genericos/js/Genericas.js"></script>
 
 
-  <?php if (!empty($js)) { ?>
+  <!-- <?php if (!empty($js)) { ?>
     <script src="<?php echo base_url(); ?>js-css/genericos/js/<?php echo $js; ?>.js"></script>
   <?php
-  } ?>
-  <script src="<?php echo base_url(); ?>js-css/estaticos/js/jquery.serializejson.min.js"></script>
-  <script src="<?php echo base_url(); ?>js-css/estaticos/js/push.min.js"></script>
-  <script src="<?php echo base_url(); ?>js-css/estaticos/js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
-  <script src="<?php echo base_url(); ?>js-css/estaticos/js/bootstrap-datetimepicker.fr.js" charset="UTF-8"></script>
+  } ?> -->
+  <!-- <script src="<?php echo base_url(); ?>js-css/estaticos/js/jquery.serializejson.min.js"></script>
+  <script src="<?php echo base_url(); ?>js-css/estaticos/js/push.min.js"></script> -->
+  <!-- <script src="<?php echo base_url(); ?>js-css/estaticos/js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
+  <script src="<?php echo base_url(); ?>js-css/estaticos/js/bootstrap-datetimepicker.fr.js" charset="UTF-8"></script> -->
   <!--botones DataTables-->
-  <script src="<?php echo base_url(); ?>js-css/estaticos/js/dataTables.buttons.min.js"></script>
-  <script src="<?php echo base_url(); ?>js-css/estaticos/js/buttons.bootstrap.min.js"></script>
+  <!-- <script src="<?php echo base_url(); ?>js-css/estaticos/js/dataTables.buttons.min.js"></script>
+  <script src="<?php echo base_url(); ?>js-css/estaticos/js/buttons.bootstrap.min.js"></script> -->
   <!--Libreria para exportar Excel-->
-  <script src="<?php echo base_url(); ?>js-css/estaticos/js/jszip.min.js"></script>
+  <!-- <script src="<?php echo base_url(); ?>js-css/estaticos/js/jszip.min.js"></script> -->
   <!--Librerias para exportar PDF-->
-  <script src="<?php echo base_url(); ?>js-css/estaticos/js/pdfmake.min.js"></script>
-  <script src="<?php echo base_url(); ?>js-css/estaticos/js/vfs_fonts.js"></script>
+  <!-- <script src="<?php echo base_url(); ?>js-css/estaticos/js/pdfmake.min.js"></script>
+  <script src="<?php echo base_url(); ?>js-css/estaticos/js/vfs_fonts.js"></script> -->
   <!--Librerias para botones de exportación-->
-  <script src="<?php echo base_url(); ?>js-css/estaticos/js/buttons.html5.min.js"></script>
+  <!-- <script src="<?php echo base_url(); ?>js-css/estaticos/js/buttons.html5.min.js"></script>
 
   <script src="<?php echo base_url(); ?>js-css/estaticos/js/Chart.bundle.js"></script>
   <script src="<?php echo base_url(); ?>js-css/estaticos/js/Chart.js"></script>
@@ -58,27 +66,30 @@
   <script src="<?php echo base_url(); ?>js-css/estaticos/js/Chart.bundle.min.js"></script>
   <script src="<?php echo base_url(); ?>js-css/estaticos/js/chartjs-plugin-datalabels.min.js"></script>
   <script src="<?php echo base_url(); ?>js-css/estaticos/js/xlsx.full.min.js"></script>
-  <script src="<?php echo base_url(); ?>js-css/estaticos/js/moment.min.js"></script>
+  <script src="<?php echo base_url(); ?>js-css/estaticos/js/moment.min.js"></script> -->
 
   <!-- Select de boostrap -->
-  <link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/boostrap_select/bootstrap-select.css">
+  <!-- <link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/boostrap_select/bootstrap-select.css">
   <script src="<?php echo base_url(); ?>js-css/estaticos/js/boostrap_select/bootstrap-select.js"></script>
-  <script src="<?php echo base_url(); ?>js-css/estaticos/js/boostrap_select/i18n/defaults-es_ES.js"></script>
+  <script src="<?php echo base_url(); ?>js-css/estaticos/js/boostrap_select/i18n/defaults-es_ES.js"></script> -->
 
 </head>
 
-<body style="overflow: hidden;height: 100%;	background-image: url(<?php echo base_url(); ?>/imagenes/fondo.jpg)">
-  <?php if (!isset($cargar)) { ?>
-    <div class="cargando" id="cargando" style="background-image: url(<?php echo base_url(); ?>/imagenes/fondo.jpg)"><img src="<?php echo base_url(); ?>imagenes/loading.gif" />
-      <h4><b>Cargando...</b></h4>
-    </div>
-  <?php
-  } ?>
-
+<body>
 
   <header>
 
-    <nav class="navbar  navbar-fixed-top">
+	  <!-- Navegacion fasterin -->
+
+		<nav class="navbar navbar-light bg-light border-start border-6 border-primary fixed-top">
+			<div class="container-fluid">
+				<span class="navbar-brand mb-0 h1 text-orange"><i class='bx bxs-bolt'></i> Ingresar</span>
+			</div>
+		</nav>
+
+		<!-- Fin navegación fasterin -->
+		
+    <!-- <nav class="navbar  navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
           <?php if (!empty($_SESSION["usuario"])) {
@@ -161,7 +172,7 @@
         </div>
 
       </div>
-    </nav>
+    </nav> -->
 
   </header>
 

@@ -38,9 +38,19 @@
   </div>
 
 </section>
-<footer class="footer">
-    <p><span id="info-footer">Copyright © <?php echo date("Y") ?> Universidad de la Costa CUC | <a style=" color: #666666;"class="sinlink" href="<?php echo base_url(); ?>politicadedatos.pdf" target="_blank">Política de Protección de Datos. </a>| V2.1902.1</p> 
+
+<footer class="navbar fixed-bottom navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+                <a class="nav-link disabled">Copyright © <?php echo date("Y") ?> Fasterin | Política de Protección de Datos. | V
+                    1.0.0</a>
+            </li>
+        </ul>
+    </div>
 </footer>
+
+
 <script>
 $(document).ready(function () {
   num_notificaciones_general();

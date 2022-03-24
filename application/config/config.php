@@ -19,10 +19,10 @@ $config['base_url'] = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") ?
 switch (ENVIRONMENT)
 {
 	case 'development':
-  $config['base_url'] .= "://".$_SERVER['SERVER_NAME']."/Agil/";
+  $config['base_url'] .= "://".$_SERVER['SERVER_NAME']."/fasterin/";
   break;
   case 'production':
-  $config['base_url'] .= "://"."Agil.cuc.edu.co/";
+  $config['base_url'] .= "://"."fasterin.com/";
   break;
   
 }

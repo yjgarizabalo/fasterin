@@ -288,9 +288,9 @@ const Traer_Server = () => {
     let protocolo = window.location.protocol;
     let host = window.location.hostname;
     if (ENVIRONMENT == "production") {
-        return protocolo + "//" + "agil.cuc.edu.co/";
+        return protocolo + "//" + "fasterin";
     }
-    return protocolo + "//" + host + "/Agil/";
+    return protocolo + "//" + host + "/fasterin/";
 }
 
 const Mostrar_Contenido = () => $('#cargando').fadeOut(1000);
