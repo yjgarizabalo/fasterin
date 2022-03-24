@@ -35,10 +35,10 @@
   <script src="<?php echo base_url(); ?>js-css/estaticos/js/jquery.dataTables.min.js"></script>
   <script src="<?php echo base_url(); ?>js-css/estaticos/js/dataTables.bootstrap.js"></script>
   <script src="<?php echo base_url(); ?>js-css/estaticos/js/dataTables.bootstrap.min.js"></script> -->
-  <script src="<?php echo base_url(); ?>js-css/genericos/js/General.js"></script>
+  <!-- <script src="<?php echo base_url(); ?>js-css/genericos/js/General.js"></script>
   <script src="<?php echo base_url(); ?>js-css/genericos/js/Usuarios.js"></script>
   <script src="<?php echo base_url(); ?>js-css/estaticos/js/sweetalert.min.js"></script>
-  <script src="<?php echo base_url(); ?>js-css/genericos/js/Genericas.js"></script>
+  <script src="<?php echo base_url(); ?>js-css/genericos/js/Genericas.js"></script> -->
 
 
   <!-- <?php if (!empty($js)) { ?>
@@ -220,13 +220,13 @@
       </div>
     </div>
 
-    <script>
+    <!-- <script>
       $(document).ready(function() {
         $('ul .dropdown-menu').click(function(e) {
           e.stopPropagation();
         });
       });
-    </script>
+    </script> -->
 
 
     <div class="modal fade" id="s" role="dialog">

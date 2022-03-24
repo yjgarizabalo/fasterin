@@ -51,12 +51,12 @@
 </footer>
 
 
-<script>
+<!-- <script>
 $(document).ready(function () {
   num_notificaciones_general();
   mostrar_notificaciones_general();
 <?php if(isset($_SESSION['perfil'])){?> traer_perfil_activo("<?php echo $_SESSION['perfil'];?>", "<?php echo $mensaje;?>") <?php }?>
-});
+}); -->
 </script>
 </body>
 </html>
