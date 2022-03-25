@@ -29,16 +29,16 @@
   <link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/Chart.css">
   <link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/Chart.min.css"> -->
 
-	<!-- <script src="<?php echo base_url(); ?>js-css/estaticos/js/bs-stepper.min.js"></script>
+	<!-- <script src="<?php echo base_url(); ?>js-css/estaticos/js/bs-stepper.min.js"></script> -->
   <script src="<?php echo base_url(); ?>js-css/estaticos/js/jquery-2.2.1.js"></script>
-  <script src="<?php echo base_url(); ?>js-css/estaticos/js/bootstrap.min.js"></script>
-  <script src="<?php echo base_url(); ?>js-css/estaticos/js/jquery.dataTables.min.js"></script>
-  <script src="<?php echo base_url(); ?>js-css/estaticos/js/dataTables.bootstrap.js"></script>
-  <script src="<?php echo base_url(); ?>js-css/estaticos/js/dataTables.bootstrap.min.js"></script> -->
-	<!-- <script src="<?php echo base_url(); ?>js-css/genericos/js/General.js"></script>
+  <!-- <script src="<?php echo base_url(); ?>js-css/estaticos/js/bootstrap.min.js"></script> -->
+  <!-- <script src="<?php echo base_url(); ?>js-css/estaticos/js/jquery.dataTables.min.js"></script> -->
+  <!-- <script src="<?php echo base_url(); ?>js-css/estaticos/js/dataTables.bootstrap.js"></script> -->
+  <!-- <script src="<?php echo base_url(); ?>js-css/estaticos/js/dataTables.bootstrap.min.js"></script> -->
+	<script src="<?php echo base_url(); ?>js-css/genericos/js/General.js"></script>
   <script src="<?php echo base_url(); ?>js-css/genericos/js/Usuarios.js"></script>
   <script src="<?php echo base_url(); ?>js-css/estaticos/js/sweetalert.min.js"></script>
-  <script src="<?php echo base_url(); ?>js-css/genericos/js/Genericas.js"></script> -->
+  <script src="<?php echo base_url(); ?>js-css/genericos/js/Genericas.js"></script>
 
 
 	<!-- <?php if (!empty($js)) { ?>
@@ -81,7 +81,7 @@
 
 		<!-- Navegacion fasterin -->
 
-		<nav class="navbar navbar-expand navbar-light bg-light border-start border-6 border-primary fixed-top">
+		<nav class="navbar navbar-expand navbar-light bg-light border-start border-6 border-primary">
 			<div class="container-fluid">
 				<span class="navbar-brand mb-0 h1 text-orange"><i class='bx bxs-bolt'></i>
 					<?php echo $actividad ?>
