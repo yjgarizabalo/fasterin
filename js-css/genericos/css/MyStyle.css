@@ -1,14 +1,4 @@
-body,
-html {
-	margin: 0px;
-	padding: 0px;
-	font-family: cuc;
-}
 
-body {
-	background-repeat: no-repeat;
-	background-size: 100%;
-}
 
 .boton {
 	font-size: 13px;
@@ -26,7 +16,6 @@ span img {
 .modal-header {
 	text-align: center;
 	color: white;
-	font-family: cuc;
 	background-color: #6e1f7c;
 }
 
@@ -48,56 +37,17 @@ li,
 ul,
 textArea,
 textarea {
-	font-family: cuc;
+	
 }
 
 nav li {
 	font-size: 18px;
 }
 
-header {
-	height: 50px;
-	;
-	border-left: 8px #6e1f7c solid !important;
-	color: black;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+10,0+53,0+79,1+100 */
-	background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0) 53%, rgba(255, 255, 255, 0) 79%, rgba(255, 255, 255, 1) 100%);
-	/* FF3.6-15 */
-	background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0) 53%, rgba(255, 255, 255, 0) 79%, rgba(255, 255, 255, 1) 100%);
-	/* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0) 53%, rgba(255, 255, 255, 0) 79%, rgba(255, 255, 255, 1) 100%);
-	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);
-	/* IE6-9 */
-	margin-bottom: 2px;
-}
 
-nav a {
-	text-decoration: none;
-	color: black;
-}
 
-nav a:hover {
-	color: #6e1f7c;
-}
 
-nav span {
-	color: #6e1f7c;
-}
 
-nav button {
-	background-color: red;
-}
-
-.logo-small {
-	color: #6e1f7c;
-	font-size: 50px;
-}
-
-.logo {
-	color: #6e1f7c;
-	font-size: 200px;
-}
 
 #inicio {
 	background: rgb(122, 12, 2);
@@ -125,44 +75,31 @@ nav button {
 	margin-top: 100px;
 }
 
-.banner-text p {
+/* .banner-text p {
 	font-size: 20px;
 	font-weight: 20;
 	font-family: 'Questrial', sans-serif;
-}
+} */
 
-.banner-text h {
+/* .banner-text h {
 	font-size: 40px;
 	font-weight: 20;
 	font-family: 'Questrial', sans-serif;
-}
+} */
 
-.banner-text h2 span {
+/* .banner-text h2 span {
 	font-family: 'Satisfy', cursive;
-}
+} */
 
 #servicio .row img {
 	width: 25%;
 }
 
-.titulo-rojo-trasn {
-	color: #6e1f7c;
-}
 
-footer {
-	background-color: white;
-	color: #666666;
-	height: 5%;
-	padding: 4px;
-	font-size: 100%;
-	width: 100%;
-}
 
-footer .glyphicon {
-	font-size: 20px;
-	margin-bottom: 20px;
-	color: white;
-}
+
+
+
 
 #inicio-user {
 	text-align: center;
@@ -265,7 +202,7 @@ footer .glyphicon {
 	/* IE6-9 */
 	border: 1px solid #cccccc;
 	color: #6e1f7c;
-	font-family: cuc;
+	
 	text-align: center;
 }
 
@@ -362,7 +299,7 @@ table tbody tr {
 }
 
 tbody {
-	font-family: cuc;
+	
 	text-align: center;
 }
 
@@ -388,7 +325,7 @@ tbody {
 #Mensaje,
 #MensajeEliminar {
 	font-weight: bold;
-	font-family: cuc;
+	
 	font-size: 15px;
 	text-align: center;
 }
@@ -448,7 +385,7 @@ textArea,
 textarea {
 	resize: none;
 	margin-top: 10px;
-	font-family: cuc;
+	
 }
 
 .form_datetime input {
@@ -499,7 +436,7 @@ textarea {
 .panel-header {
 	text-align: center;
 	color: #6e1f7c;
-	font-family: cuc;
+	
 	font-weight: bold;
 }
 
@@ -587,7 +524,7 @@ textarea {
 	color: black;
 	font-size: 15px;
 	margin-bottom: 2px;
-	font-family: cuc;
+	
 	font-style: italic
 }
 
@@ -596,7 +533,6 @@ textarea {
 	color: #d57e1c;
 	float: none;
 	margin: 0 auto;
-	font-family: cucinicio;
 }
 
 .tituloacti span {
@@ -659,7 +595,7 @@ textarea {
 	margin-top: 11px;
 	font-weight: normal;
 	text-transform: uppercase;
-	font-family: cuc;
+	
 }
 
 .sin-borde {
@@ -765,7 +701,6 @@ label {
 	text-align: center;
 	height: 40px;
 	border: 1px solid #ccc;
-	;
 	background: #fafafa;
 	transition: 0.2s ease-in-out;
 }
@@ -1026,7 +961,7 @@ label {
 	background-size: 100%;
 	border: #6e1f7c;
 	color: white;
-	font-family: cucinicio;
+	
 }
 
 .titulo_menu {
@@ -1036,7 +971,6 @@ label {
 	padding-left: 3%;
 	text-transform: uppercase;
 	padding-bottom: 1px;
-	font-family: cucinicio;
 }
 
 .tituloacti {
@@ -1046,7 +980,7 @@ label {
 	text-transform: uppercase;
 	padding-bottom: 1px;
 	margin-left: 5px;
-	font-family: cucinicio;
+	
 }
 
 .titulo_menu_alt {
@@ -1085,7 +1019,7 @@ label {
 .thumbnail p {
 	display: none;
 	text-align: justify;
-	font-family: cuc;
+	
 }
 
 .thumbnail {
@@ -1094,12 +1028,12 @@ label {
 }
 
 @font-face {
-	font-family: cuc;
+	
 	src: url(cucfont/fuentes/Swz721c.ttf)
 }
 
 @font-face {
-	font-family: cucinicio;
+	
 	src: url(cucfont/fuentes/BebasNeue.ttf)
 }
 
@@ -1174,12 +1108,12 @@ label {
 	color: white !important;
 }
 
-.btn-danger2 {
+/* .btn-danger2 {
 	background-color: #CA3E33 !important;
 	background-size: 100% !important;
 	border: 1px solid#CA3E33;
 	color: white !important;
-}
+} */
 
 #myNavbar .dropdown .dropdown-menu {
 	background-color: white;
@@ -1539,7 +1473,7 @@ textarea.form-control.calificarComunicaciones {
 
 @page {
 	background-color: #ffffff;
-	header: html_myHeader1;
+
 	footer: html_myFooter1;
 	margin-top: 20mm;
 	/* <any of the usual CSS values for margins> */
@@ -1554,7 +1488,7 @@ textarea.form-control.calificarComunicaciones {
 
 .detalle_plan_des td {
 	padding: 3px;
-	font-family: cuc;
+	
 	text-align: center;
 	font-size: 10px !important;
 
@@ -1786,7 +1720,7 @@ div#modal_encuesta_solicitud .alert {
 	margin-bottom: 15px;
 	font-size: 14px;
 	text-transform: uppercase;
-	font-family: cucinicio;
+	
 }
 
 
@@ -1839,7 +1773,7 @@ div#modal_encuesta_solicitud .alert {
     background-size: 100%;
     border: #6e1f7c;
     color: white;
-    font-family: cucinicio;
+    
   }
 
   #seleccion_tipo .thumbnail:hover .btn {
@@ -2188,5 +2122,5 @@ img {
     margin-bottom: 15px;
     font-size: 14px;
     text-transform: uppercase;
-    font-family: cucinicio;
+    
 }
