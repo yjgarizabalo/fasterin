@@ -10,35 +10,38 @@
 	<link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/boostrap-5/bootstrap.css">
 
 	<!-- Iconos boxicons -->
-	<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-	<!-- <link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/boxicons/boxicons.css"> -->
+	<!-- <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'> -->
+	<link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/boxicons/css/boxicons.css">
+
+	<!-- Alertas -->
+
+	<link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/boostrap-5/sweetalert.css">
 
 
-
-	<!-- <link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/bootstrap.min.css">
-	<link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/sweetalert.css">
-  <link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/bootstrap-datetimepicker.min.css">
+	<!-- <link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/bootstrap.min.css"> -->
+  <!-- <link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/bootstrap-datetimepicker.min.css"> -->
   <link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/dataTables.bootstrap.min.css">
-  <link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/buttons.bootstrap.min.css">
-  <link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/font-awesome.min.css">
-  <link rel="stylesheet" href="<?php echo base_url(); ?>js-css/genericos/css/MyStyle.css">
-  <link rel="stylesheet" href="<?php echo base_url(); ?>js-css/genericos/css/stepper.css">
-  <link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/bs-stepper.min.css">
+  <!-- <link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/buttons.bootstrap.min.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/font-awesome.min.css">-->
+	<link rel="stylesheet" href="<?php echo base_url(); ?>js-css/genericos/css/MyStyle.css">
+   <!--  <link rel="stylesheet" href="<?php echo base_url(); ?>js-css/genericos/css/stepper.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/bs-stepper.min.css"> -->
 
-
+<!-- 
   <link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/Chart.css">
   <link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/Chart.min.css"> -->
 
 	<!-- <script src="<?php echo base_url(); ?>js-css/estaticos/js/bs-stepper.min.js"></script> -->
-  <script src="<?php echo base_url(); ?>js-css/estaticos/js/jquery-2.2.1.js"></script>
-  <!-- <script src="<?php echo base_url(); ?>js-css/estaticos/js/bootstrap.min.js"></script> -->
-  <!-- <script src="<?php echo base_url(); ?>js-css/estaticos/js/jquery.dataTables.min.js"></script> -->
-  <!-- <script src="<?php echo base_url(); ?>js-css/estaticos/js/dataTables.bootstrap.js"></script> -->
-  <!-- <script src="<?php echo base_url(); ?>js-css/estaticos/js/dataTables.bootstrap.min.js"></script> -->
+	<script src="<?php echo base_url(); ?>js-css/estaticos/js/jquery-2.2.1.js"></script>
+	<script src="<?php echo base_url(); ?>js-css/estaticos/js/bootstrap.min.js"></script>
+	<script src="<?php echo base_url(); ?>js-css/estaticos/js/jquery.dataTables.min.js"></script>
+	<script src="<?php echo base_url(); ?>js-css/estaticos/js/dataTables.bootstrap.js"></script>
+	<script src="<?php echo base_url(); ?>js-css/estaticos/js/dataTables.bootstrap.min.js"></script>
+	
 	<script src="<?php echo base_url(); ?>js-css/genericos/js/General.js"></script>
-  <script src="<?php echo base_url(); ?>js-css/genericos/js/Usuarios.js"></script>
-  <script src="<?php echo base_url(); ?>js-css/estaticos/js/sweetalert.min.js"></script>
-  <script src="<?php echo base_url(); ?>js-css/genericos/js/Genericas.js"></script>
+	<script src="<?php echo base_url(); ?>js-css/genericos/js/Usuarios.js"></script>
+	<script src="<?php echo base_url(); ?>js-css/estaticos/js/sweetalert.min.js"></script>
+	<script src="<?php echo base_url(); ?>js-css/genericos/js/Genericas.js"></script>
 
 
 	<!-- <?php if (!empty($js)) { ?>
@@ -103,24 +106,36 @@
 					<div class="collapse navbar-collapse " id="navbarSupportedContent">
 						<ul class="navbar-nav ms-auto mb-2 ml-lg-0">
 							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <i class="bx bxs-user"></i>
+								<a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <i class="bx bxs-user"></i>
 								' . $_SESSION["nombre"] . ' ' . $_SESSION["apellido"] . '
 								</a>
-								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<li id="presentation"><a class="dropdown-item" href="#">Cuenta</a></li>
-									<li><a class="dropdown-item" href="#">Another action</a></li>
+								<ul class="dropdown-menu dropdown" aria-labelledby="navbarDropdown">
+									<li id="cuentauser"><a class="dropdown-item"><i class="bx bxs-edit"></i> Mi cuenta</a></li>
+
+									<li class="dropdown-menu dropdown">
+										<a class="nav-link dropdown-toggle" id="navbarDropdown-sub" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+										Perfiles
+										</a>
+										<ul class="dropdown-submenu" aria-labelledby="navbarDropdown">
+											<li><a class="dropdown-item" href="#">Action</a></li>
+											<li><a class="dropdown-item" href="#">Another action</a></li>
+											<li><hr class="dropdown-divider"></li>
+											<li><a class="dropdown-item" href="#">Something else here</a></li>
+										</ul>
+									</li>
+									
 									<li>
 										<hr class="dropdown-divider">
 									</li>
-									<li><a class="dropdown-item" href="#">Something else here</a></li>
+									<li data-toggle="modal" data-target="#ModalLogeo" id="salir"><a class="dropdown-item"><i class="bx bx-log-out"></i> Salir</a></li>
 								</ul>
 							</li>
 							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bxs-book"></i> Manuales</a>
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bxs-book-content"></i> Manuales</a>
 
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								
-									<li><a class="dropdown-item" href="' . base_url() . 'manuales/ManualAlmacen.pdf" target="_blank"><i class="bx bxs-component"></i> Almacen</a></li>
+									<li><a class="dropdown-item" href="' . base_url() . 'manuales/ManualAlmacen.pdf" target="_blank"><i class="bx bxs-box"></i> Almacen</a></li>
 
 									<li><a class="dropdown-item" href="' . base_url() . 'manuales/ManualAscensos.pdf" target="_blank"><i class="bx bxs-flag"></i> Acensos</a></li>
 
@@ -128,7 +143,7 @@
 							</li>
 
 							<li class="nav-item">
-								<p type="button" id="notificacion_general"><span <i class="bx bxs-bell"></i> <span id="notificaciones">0</span> Notificaciones</p>
+								<a class="nav-link" type="button" id="notificacion_general"><i class="bx bxs-bell"></i> <span id="notificaciones"><b>0</b></span> Notificaciones</a>
 							</li>
 							
 						</ul>
