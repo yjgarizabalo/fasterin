@@ -24,29 +24,10 @@ span img {
 	font-size: 13px;
 }
 
-input,
-a,
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-li,
-ul,
-textArea,
-textarea {
-	
-}
 
 nav li {
 	font-size: 18px;
 }
-
-
-
-
 
 
 #inicio {
@@ -168,11 +149,11 @@ nav li {
 	margin-left: 15px;
 	float: left;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5e5e5+0,e5e5e5+99,ffffff+100&1+0,0+18,0+47,0+79,1+98,0+100 */
-	background: -moz-linear-gradient(top, rgba(229, 229, 229, 1) 0%, rgba(229, 229, 229, 0) 18%, rgba(229, 229, 229, 0) 47%, rgba(229, 229, 229, 0) 79%, rgba(229, 229, 229, 1) 98%, rgba(229, 229, 229, 0.5) 99%, rgba(255, 255, 255, 0) 100%);
+	/* background: -moz-linear-gradient(top, rgba(229, 229, 229, 1) 0%, rgba(229, 229, 229, 0) 18%, rgba(229, 229, 229, 0) 47%, rgba(229, 229, 229, 0) 79%, rgba(229, 229, 229, 1) 98%, rgba(229, 229, 229, 0.5) 99%, rgba(255, 255, 255, 0) 100%); */
 	/* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(229, 229, 229, 1) 0%, rgba(229, 229, 229, 0) 18%, rgba(229, 229, 229, 0) 47%, rgba(229, 229, 229, 0) 79%, rgba(229, 229, 229, 1) 98%, rgba(229, 229, 229, 0.5) 99%, rgba(255, 255, 255, 0) 100%);
+	/* background: -webkit-linear-gradient(top, rgba(229, 229, 229, 1) 0%, rgba(229, 229, 229, 0) 18%, rgba(229, 229, 229, 0) 47%, rgba(229, 229, 229, 0) 79%, rgba(229, 229, 229, 1) 98%, rgba(229, 229, 229, 0.5) 99%, rgba(255, 255, 255, 0) 100%); */
 	/* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(229, 229, 229, 1) 0%, rgba(229, 229, 229, 0) 18%, rgba(229, 229, 229, 0) 47%, rgba(229, 229, 229, 0) 79%, rgba(229, 229, 229, 1) 98%, rgba(229, 229, 229, 0.5) 99%, rgba(255, 255, 255, 0) 100%);
+	/* background: linear-gradient(to bottom, rgba(229, 229, 229, 1) 0%, rgba(229, 229, 229, 0) 18%, rgba(229, 229, 229, 0) 47%, rgba(229, 229, 229, 0) 79%, rgba(229, 229, 229, 1) 98%, rgba(229, 229, 229, 0.5) 99%, rgba(255, 255, 255, 0) 100%); */
 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#e5e5e5', endColorstr='#00ffffff', GradientType=0);
 	/* IE6-9 */
@@ -224,7 +205,7 @@ tbody td {
 	overflow: hidden;
 }
 
-.row input,
+
 .row select,
 .row .label,
 .row textArea,
@@ -237,7 +218,7 @@ tbody td {
 	margin-top: 6px;
 }
 
-.agrupado input,
+
 .agrupado select,
 .agrupado span,
 .agrupado label {
@@ -345,19 +326,7 @@ tbody {
 	padding-left: 5px;
 }
 
-@-webkit-keyframes tiembla {
-	0% {
-		-webkit-transform: rotateZ(-5deg);
-	}
 
-	50% {
-		-webkit-transform: rotateZ(0deg) scale(.8);
-	}
-
-	100% {
-		-webkit-transform: rotateZ(5deg);
-	}
-}
 
 .modal-50 {
 	width: 50%;
@@ -603,9 +572,6 @@ textarea {
 	border-left: 1px solid #cccccc !important;
 }
 
-label {
-	font-family: cuc !important;
-}
 
 
 /*
@@ -662,7 +628,7 @@ label {
 }
 
 .login-container::before,
-.login-container::after {
+/* .login-container::after {
 	content: "";
 	position: absolute;
 	width: 100%;
@@ -675,15 +641,15 @@ label {
 	-moz-transform: rotateZ(4deg);
 	-ms-transform: rotateZ(4deg);
 	border: 1px solid #ccc;
-}
+} */
 
-.login-container::after {
+/* .login-container::after {
 	top: 5px;
 	z-index: -2;
 	-webkit-transform: rotateZ(-2deg);
 	-moz-transform: rotateZ(-2deg);
 	-ms-transform: rotateZ(-2deg);
-}
+} */
 
 .avatar {
 	width: 100px;
@@ -911,19 +877,6 @@ label {
 	color: white !important;
 }
 
-@-webkit-keyframes tiembla {
-	0% {
-		-webkit-transform: rotateZ(-5deg);
-	}
-
-	50% {
-		-webkit-transform: rotateZ(0deg) scale(.8);
-	}
-
-	100% {
-		-webkit-transform: rotateZ(5deg);
-	}
-}
 
 .menu_secundario {
 	width: 100%;
@@ -1027,15 +980,6 @@ label {
 	cursor: pointer;
 }
 
-@font-face {
-	
-	src: url(cucfont/fuentes/Swz721c.ttf)
-}
-
-@font-face {
-	
-	src: url(cucfont/fuentes/BebasNeue.ttf)
-}
 
 .con-scroll-modal {
 	overflow-y: auto !important;
@@ -1057,7 +1001,7 @@ label {
 }
 
 #seccion-vista::-webkit-scrollbar-track,
-.modal::-webkit-scrollbar-track {
+/* .modal::-webkit-scrollbar-track {
 	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 	background-color: white;
 }
@@ -1066,7 +1010,7 @@ label {
 .modal::-webkit-scrollbar {
 	width: 7px;
 	background-color: #BDBDBD;
-}
+} */
 
 #seccion-vista::-webkit-scrollbar-thumb,
 .modal::-webkit-scrollbar-thumb {

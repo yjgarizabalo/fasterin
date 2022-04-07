@@ -14,7 +14,6 @@
 	<link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/boxicons/css/boxicons.css">
 
 	<!-- Alertas -->
-
 	<link rel="stylesheet" href="<?php echo base_url(); ?>js-css/estaticos/css/boostrap-5/sweetalert.css">
 
 

@@ -1,9 +1,9 @@
 <script src="<?php echo base_url(); ?>js-css/genericos/js/profesores_csep.js"></script>
-<div class="text-center  container"  id="menu_principal" style='background-image: url("<?php echo base_url(); ?>/imagenes/LogocucF.png")'>
-   <div class="content-menu" style='background-image: url("<?php echo base_url(); ?>/imagenes/logo_agil.png")'>
+<div class="text-center  container"  id="menu_principal">
+   <div class="content-menu" style='background-image: url("<?php echo base_url(); ?>/imagenes/logo_fasterin.svg")'>
    </div> 
    <div id="container-principal2">
-        <h3 class="titulo_menu"><span class="fa fa-navicon"></span> MENÚ</h3>
+        <h3 class="titulo_menu"><i class="bx bx-menu"></i> MENÚ</h3>
         <div class="input-group col-sm-4" style="float: left">
           <input class="form-control input-sm" id="busca_params" style="border-radius: 5px" placeholder="Escriba el módulo">
         </div><br>        
