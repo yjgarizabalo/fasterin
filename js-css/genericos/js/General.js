@@ -1194,16 +1194,19 @@ const cargar_datos = (actividades) => {
 		}else{
 			var ruta = Traer_Server()+'index.php/'+data_activ[index]["actividad"];
 		}
-		info = info +`
+		info =
+			info +
+			`
 		<a style="color: black; font-style: oblique;font-weight: bold;" href="${ruta}" class="sinlink">
-			<div>
-				<div class="thumbnail">
-					<div class="caption">
-					<img src="${Traer_Server()}/imagenes/${data_activ[index]["icono"]}" alt="...">
-					<span class = "btn form-control">${data_activ[index]["nombre"]}</span>
-					</div>
-				</div>
-			</div>
+			
+
+            <div class="card thumbnail" style="width: 18rem;">
+                <img class="card-img-top" src="${Traer_Server()}/imagenes/${data_activ[index]["icono"]}" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">${data_activ[index]["nombre"]}</h5>
+                    
+                </div>
+            </div>
 		</a>`;
 	}
 	$("#container_listado_menu").html(info)
